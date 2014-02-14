@@ -1,12 +1,37 @@
 <html>
 	<head>
+		<title>{{ title }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/css/site.css" />
 	</head>
 	<body>
 		<div class="container">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-links">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">Eric Andres</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="navbar-links">
+					<ul class="nav navbar-nav">
+						<li><a href="/about">About</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">R&eacute;sum&eacute;</a></li>
+					</ul>
+				</div>
+			</nav>
+
 			{{ content }}
 		</div>
+
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	</body>
 </html>

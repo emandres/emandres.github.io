@@ -68,3 +68,7 @@
 		width: 100%;
 	}
 }
+
+.container h1 {
+	font-family: sans;
+}
