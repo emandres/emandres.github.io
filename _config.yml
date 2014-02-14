@@ -1,3 +1,5 @@
+encoding: UTF-8
+exclude: [Gemfile, Gemfile.lock, Procfile, vendor]
 name: Eric Andres
 pygments: true
-exclude: [Gemfile, Gemfile.lock, Procfile, vendor]
+timezone: America/Denver
