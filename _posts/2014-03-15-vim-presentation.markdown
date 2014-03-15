@@ -11,7 +11,7 @@ Resources
 ---------
 * [Vim Download](http://www.vim.org/download.php)
 * [Practice Documents](http://github.com/emandres/vim-presentation)
-* [Notes (if you want to follow along)](/2014/03/15/vim-presentation.html)
+* [My .vimrc](http://github.com/emandres/dotfiles)
 
 What is Vim?
 ------------
@@ -76,14 +76,14 @@ Text Objects (open pantry app for demo)
 ---------------------------------------
 * i vs. a
 * () {} \[\] <>
-* "" '' \`\`
+* "" '' &#96;&#96;
 * t
 
 Searching
 ---------
 * / ?
 * n N
-* * #
+* \* #
 
 Regex capabilities
 ------------------
