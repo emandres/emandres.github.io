@@ -75,8 +75,8 @@ Operators
 Text Objects (open pantry app for demo)
 ---------------------------------------
 * i vs. a
-* () {} [] <>
-* “” ‘’ ``
+* () {} \[\] <>
+* "" '' \`\`
 * t
 
 Searching
@@ -87,7 +87,7 @@ Searching
 
 Regex capabilities
 ------------------
-* :s/re/gex/{gci}
+* Substitution
 
 Your .vimrc (open up new .vimrc)
 --------------------------------
