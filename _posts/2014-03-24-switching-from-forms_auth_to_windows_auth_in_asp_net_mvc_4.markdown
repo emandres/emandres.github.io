@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Converting ASP.NET MVC 4 from Forms Authentication to Windows Authentication
+title: Switching from Forms Authentication to Windows Authentication in ASP.NET MVC 4
 ---
 
-{{ title }}
+{{ page.title }}
 ===========
 
-I recently had the pleasure of trying to convert an ASP.NET MVC 4 project from Forms based authentication to Windows based. Since this seems to be completely undocumented in on the internet, I thought I'd write down my solution.
+I recently had the pleasure of trying to convert an ASP.NET MVC 4 project from Forms based authentication to Windows based. Since this seems to be completely undocumented on the internet, I thought I'd write down my solution.
 
 Let's start with your project file. This will be the `.csproj` file created with your web project. Open the file in a text editor. Toward the top of your file you should find some XML like this.
 
@@ -24,4 +24,4 @@ This change allows IIS Express to accept Windows Authentication for us. Next, we
       </system.web>
     </configuration>
 
-
+This should be enough get ASP.NET to start using Windows auth. However, you will likely have an Account controller and models sticking around from the project template. You probably want to delete these, and remove any references to WebMatrix. See [this StackOverflow question](http://stackoverflow.com/questions/5009565/asp-net-mvc3-and-windows-auth-on-iis-keeps-redirecting-to-account-login) for details why.
