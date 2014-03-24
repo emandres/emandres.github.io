@@ -3,7 +3,7 @@ layout: default
 title: Creating documents in RavenDB with Collection Specific IDs
 ---
 
-Creating Documents in RavenDB with Collection Specifc IDs
+{{ page.title }}
 ================================================
 
 <strong>TL;DR</strong>: When dealing with RavenDB's HTTP API, you can create a new document under a specific collection using `PUT`, rather than `POST`.
