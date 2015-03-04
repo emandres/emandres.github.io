@@ -1,0 +1,19 @@
+{
+  "name": "emandres.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/emandres/emandres.github.io",
+  "authors": [
+    "Eric Andres <emandres@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1"
+  }
+}

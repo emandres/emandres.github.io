@@ -1,0 +1,25 @@
+{
+  "name": "emandres.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emandres/emandres.github.io"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emandres/emandres.github.io/issues"
+  },
+  "homepage": "https://github.com/emandres/emandres.github.io",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-minify-css": "^0.5.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.3.3"
+  }
+}
